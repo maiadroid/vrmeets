@@ -1,0 +1,144 @@
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: 400px;
+}
+
+/* Cores */
+.primaria-1 {
+	background: #182628;
+}
+.primaria-2 {
+	background: #3B945E;
+}
+
+.primaria-3 {
+	background:#F2F2F2;
+}
+.secundaria-1 {
+	background: #57BA98 ;
+}
+.secundaria-2 {
+	background: #65CCB8 ;
+}
+
+/* Tipografia */
+.titulo-1 {
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 36px;
+	line-height: 1em;
+	font-weight: Bold;
+	color: black;
+}
+.titulo-2 {
+	font-family:  Arial, Helvetica, sans-serif ;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	color: black;
+}
+.titulo-3 {
+	font-family:  Arial, Helvetica, sans-serif ;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: black;
+}
+.corpo-1 p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 25px;
+	color: black;
+}
+.corpo-2 p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+/* Botões e Links */
+.btn-primario a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 3px solid #57BB99;
+	padding: 10px 30px;
+	color: #57BB99;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition: all .5s ease;
+
+}
+
+/*
+.btn-primario a:hover {
+	background: ;
+	color: ;
+	border-color: ;
+}
+.btn-secundario a {
+	font-family: ;
+	font-size: ;
+	display: inline-block;
+	background: ;
+	color: ;
+	text-align: center;
+	padding: ;
+	border: ;
+}
+.btn-secundario a:hover {
+	background: ;
+	color: ;
+}
+.link a {
+	font-family: ;
+	color: ;
+}
+.link a:hover {
+	text-decoration: ;
+}
+
+/* Formulário */
+label {
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+	color: black;
+}
+input, textarea {
+	display:block;
+	width: 100%;
+	border: 2px solid #57BB99;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+textarea {
+	min-height: 130px;
+}
+input:focus, input:hover, textarea:focus, textarea:hover {
+	outline: none ;
+}
+button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 3px solid #57BB99;
+	padding: 3px 15px;
+	color: #57BB99;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition: all .5s ease;
+	cursor: pointer;
+}
